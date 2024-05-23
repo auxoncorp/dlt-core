@@ -18,7 +18,7 @@ use crate::{
         skip_till_after_next_storage_header, validated_payload_length, DltParseError,
     },
 };
-use buf_redux::{policy::MinBuffered, BufReader as ReduxReader};
+use buffer_redux::{policy::MinBuffered, BufReader as ReduxReader};
 use nom::bytes::streaming::take;
 use rustc_hash::FxHashMap;
 use serde::Serialize;
